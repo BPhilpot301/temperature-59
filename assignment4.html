@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assignment4.css">
+    <title>Convert Temp</title>
+</head>
+<body>
+<body>
+    <div class="container">
+        <h2>Temperature Converter</h2>
+        <label>Start Temperature:</label>
+        <input type="number" id="startValue">
+
+        <label>End Temperature:</label>
+        <input type="number" id="endValue">
+
+        <label>Scale (C or F):</label>
+        <select id="scale">
+            <option value="C">Celsius to Fahrenheit</option>
+            <option value="F">Fahrenheit to Celsius</option>
+        </select>
+
+        <button onclick="convertTemperature()">Convert</button>
+
+        <div id="output" class="result"></div>
+    </div>
+
+
+<script src="./scripts/assignment4.js"></script>
+</body>
+</html>

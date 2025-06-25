@@ -72,3 +72,5 @@ function showProducts(){
      }
      document.getElementById("results").innerHTML=results;
 }
+
+
